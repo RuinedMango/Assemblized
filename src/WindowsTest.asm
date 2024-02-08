@@ -5,6 +5,7 @@ MB_OK equ 0
 
 extern MessageBoxA   ;from user32
 extern ExitProcess   ;from kernel32
+extern  glfwInit
 
 section .data
 hello:  db 'Fuck You!',0
